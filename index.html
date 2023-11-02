@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./assets/img/foco-logo.png" />
+    <title>FOCO CADASTRO</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <img src="./assets/img/foco-logo.png" width="160" alt="foco-logo" />
+    <h1>Cadastro de estudantes</h1>
+    <form id="form-cadastro">
+      <label for="first-name">Nome:</label>
+      <input type="text" name="first-name" id="first-name" required />
+      <label for="last-name">Apelido:</label>
+      <input type="text" name="last-name" id="last-name" required />
+      <label for="bi">Bilhete de identidade:</label>
+      <input type="text" name="bi" id="bi" required />
+
+      <label for="morada">Morada:</label>
+      <input type="text" name="morada" id="morada" required />
+      <label for="birthday">Nascimento:</label>
+      <input type="date" name="birthday" id="birthday" required />
+      <select name="select-course" id="select-course"></select>
+      <label for="select-lecel">Nível:</label>
+      <select name="select-level" id="select-level">
+        <option value="">Seleccione o nível</option>
+        <option value="1">10ª</option>
+        <option value="2">12ª</option>
+      </select>
+      <label for="tel1">Telefone:</label>
+      <input type="text" name="tel-1" id="tel-1" />
+      <label for="tel1">Email:</label>
+      <input type="text" name="email" id="email" />
+
+      <label for="tel1">Telefone do encarregado:</label>
+      <input type="text" name="e-tel-1" id="e-tel-1" />
+
+      <input
+        type="submit"
+        name="btn-submit"
+        id="btn-submit"
+        value="Cadastrar"
+      />
+    </form>
+    <script type="module" src="./js/config.js"></script>
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

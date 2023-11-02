@@ -1,0 +1,11 @@
+:root {
+    --primary-color: rgb(4, 78, 74);
+}
+
+* {
+    font-family: arial;
+}
+
+body {
+    /* background-color: #eee; */
+}
